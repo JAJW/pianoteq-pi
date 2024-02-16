@@ -246,11 +246,11 @@ Exec="{self.pianoteq_dir}/start.sh"
 Type=Application
 Icon={self.pianoteq_dir}/icon.png
 Comment=Fourth Generation Piano Instrument
-Terminal=False
+Terminal=false
 """
         run(
             'wget',
-            'https://raw.githubusercontent.com/jajw/pianoteq-pi/main/icon.png',
+            'https://raw.githubusercontent.com/youfou/pianoteq-pi/main/icon.png',
             '-O', f'{os.path.join(self.pianoteq_dir, "icon.png")}'
         )
 
