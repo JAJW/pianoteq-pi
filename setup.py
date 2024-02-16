@@ -246,7 +246,7 @@ Exec="{self.pianoteq_dir}/start.sh"
 Type=Application
 Icon={self.pianoteq_dir}/icon.png
 Comment=Fourth Generation Piano Instrument
-Terminal=false
+Terminal=False
 """
         run(
             'wget',
